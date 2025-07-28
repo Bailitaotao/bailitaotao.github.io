@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'qiji-fallback';
+    src: url('fonts/qiji-fallback.ttf') format('truetype');
+}
+
+body {
+    text-align: center;
+    font-family: 'qiji-fallback', sans-serif;
+    margin: 0;
+    padding: 50px 20px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.welcome-title {
+    margin-bottom: 20px;
+    font-size: 5em;
+    color: #333;
+    font-weight: bold;
+}
+
+.description {
+    font-size: 3em;
+    color: #666;
+    line-height: 1.6;
+    margin-top: 30px;
+}
