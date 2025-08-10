@@ -1,31 +1,66 @@
 <!DOCTYPE html>
-
+<html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>百里陶陶</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&display=swap" rel="stylesheet">
+    <title>Timothy's Portfolio</title>
+    <link rel="stylesheet" href="/assets/css/styles.css">
 </head>
-
-<style>
-        h1 {
-            font-family: 'Ma Shan Zheng', cursive;
-            font-size: 5em;
-            text-align: center;
-            margin-bottom: 30px;
-        }
-        p {
-            font-family: 'Ma Shan Zheng', cursive;
-            font-size: 2.5em;
-            text-align: center;
-            margin-bottom: 30px;
-        }
-</style>
-
 <body>
-    <h1>欢迎来到百里陶陶的个人主页</h1>
-    <p>这是一个展示个人信息和作品的地方。</p>
-</body>
+    <!--==================== HEADER ====================-->
+    <header class="header scroll-header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo">Timothy Tao</a>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list grid">
+            <li class="nav__item">
+              <a href="#home" class="nav__link">
+                <i class="uil uil-estate nav__icon"></i>
+                <p i18n="home">Home</p>
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">
+                <i class="uil uil-user nav__icon"></i>
+                <p i18n="about">About</p>
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#skills" class="nav__link">
+                <i class="uil uil-file-alt nav__icon"></i>
+                <p i18n="skills">Skills</p>
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#portfolio" class="nav__link">
+                <i class="uil uil-scenery nav__icon"></i>
+                <p i18n="portfolio">Portfolio</p>
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">
+                <i class="uil uil-message nav__icon"></i>
+                <p i18n="contact">Contactme</p>
+              </a>
+            </li>
+            <li class="nav__item">
+              <div class="nav__link" id="translate" value="en">
+                <svg class="icon nav__icon-svg" aria-hidden="true">
+                  <use xlink:href="#icon-fanyi"></use>
+                </svg>
+                <a class="=nav__link" id="nav__translate">Translate</a>
+              </div>
+            </li>
+          </ul>
+          <i class="uil uil-times nav__close" id="nav-close"></i>
+        </div>
+
+        <div class="nav__btns">
+          <i class="uil uil-moon change-theme" id="theme-button"></i>
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="uil uil-apps"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
