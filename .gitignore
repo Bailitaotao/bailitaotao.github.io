@@ -1,0 +1,47 @@
+# Hugo build outputs
+public/
+resources/_gen/
+
+# Hugo build lock file
+.hugo_build.lock
+
+# Hugo cache directory
+.hugo_cache/
+
+# Node.js dependencies
+node_modules/
+
+# npm lock files
+package-lock.json
+npm-shrinkwrap.json
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temporary files
+*.tmp
+*.temp
+
+# Log files
+*.log
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
