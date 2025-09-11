@@ -1,0 +1,26 @@
+baseURL = "https://www.bailitaotao.com"
+languageCode = "zh-cn"
+title = "Timothy's Portfolio"
+theme = "PaperMod"
+
+[params]
+  author = "Timothy Tao"
+  description = "游戏设计与摄影的作品集"
+
+[menu]
+  [[menu.main]]
+    name = "博客"
+    url = "/posts/"
+    weight = 10
+  [[menu.main]]
+    name = "游戏设计"
+    url = "/gamedesign/"
+    weight = 20
+  [[menu.main]]
+    name = "摄影作品"
+    url = "/photography/"
+    weight = 30
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
