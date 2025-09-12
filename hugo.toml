@@ -9,7 +9,7 @@ theme = "PaperMod"
 
 [menu]
   [[menu.main]]
-    name = "博客"
+    name = "文章"
     url = "/posts/"
     weight = 10
   [[menu.main]]
@@ -20,6 +20,10 @@ theme = "PaperMod"
     name = "摄影作品"
     url = "/photography/"
     weight = 30
+  [[menu.main]]
+    name = "笔记"
+    url = "/notes/"
+    weight = 40
 
 [taxonomies]
   category = "categories"
