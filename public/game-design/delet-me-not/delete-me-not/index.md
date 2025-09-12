@@ -1,14 +1,5 @@
----
-title: "Delete Me Not"
-date: 2024-05-21T10:00:00-04:00
-draft: false
-description: "The design and research of a choice-driven, first-person narrative puzzle game exploring AI and humanity."
-tags: ["Game Design", "AI", "Narrative", "Puzzle"]
-cover:
-    image: "/images/project4/cover.jpg" # Path to your cover image
-    alt: "Delete Me Not Cover Image"
-    caption: "Exploring the dialectical relationship between AI and human society."
----
+# Delete Me Not
+
 
 ## INSPIRATION
 
@@ -100,3 +91,4 @@ The core experience of the game revolves around a recurring binary choice: to **
 ## Storyboard
 
 !Game Storyboard Image [<sup>7</sup>](/images/project4/storyboard.jpg)
+

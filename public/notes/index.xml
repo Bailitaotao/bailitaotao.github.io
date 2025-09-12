@@ -1,0 +1,49 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Notes -  - 陶昊洋的个人网站</title>
+        <link>http://localhost:1313/notes/</link>
+        <description>Notes -  - 陶昊洋的个人网站</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>thy20030626@gmail.com (陶昊洋)</managingEditor>
+            <webMaster>thy20030626@gmail.com (陶昊洋)</webMaster><lastBuildDate>Thu, 11 Sep 2025 00:00:00 &#43;0000</lastBuildDate><atom:link href="http://localhost:1313/notes/" rel="self" type="application/rss+xml" /><item>
+    <title>各大网站字体应用参考</title>
+    <link>http://localhost:1313/notes/major-sites-font/</link>
+    <pubDate>Thu, 11 Sep 2025 00:00:00 &#43;0000</pubDate>
+    <author>陶昊洋</author>
+    <guid>http://localhost:1313/notes/major-sites-font/</guid>
+    <description><![CDATA[<h1 id="各大网站字体应用">各大网站字体应用</h1>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: center">网站</th>
+          <th style="text-align: center">字体</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: center">Apple</td>
+          <td style="text-align: center">&ldquo;SF Pro Text&rdquo;, &ldquo;SF Pro Icons&rdquo;, &ldquo;PingFang SC&rdquo;, &ldquo;Helvetica Neue&rdquo;, Helvetica, Arial, sans-serif</td>
+      </tr>
+      <tr>
+          <td style="text-align: center">DJI</td>
+          <td style="text-align: center">&ldquo;Open Sans&rdquo;, &ldquo;PingFang SC&rdquo;, &ldquo;Microsoft YaHei&rdquo;, &ldquo;Helvetica Neue&rdquo;, &ldquo;Hiragino Sans GB&rdquo;, &ldquo;WenQuanYi Micro Hei&rdquo;, Arial, sans-serif</td>
+      </tr>
+      <tr>
+          <td style="text-align: center">Arknights</td>
+          <td style="text-align: center">Oswald, SourceHanSans, Novecentosanswide, Bender</td>
+      </tr>
+  </tbody>
+</table>]]></description>
+</item>
+<item>
+    <title></title>
+    <link>http://localhost:1313/notes/naming-convention/</link>
+    <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate>
+    <author>陶昊洋</author>
+    <guid>http://localhost:1313/notes/naming-convention/</guid>
+    <description><![CDATA[<h1 id="常见的命名规范">常见的命名规范</h1>
+<h2 id="1-aaaaaa-pascalcase--uppercamelcase">1. <code>AaaaAa</code> (PascalCase / UpperCamelCase)</h2>
+<p><strong>名称：</strong> 帕斯卡命名法（PascalCase），也称为大驼峰命名法（UpperCamelCase）。</p>
+<p><strong>规则：</strong> 每个单词的首字母都大写，然后直接连接在一起。</p>]]></description>
+</item>
+</channel>
+</rss>
