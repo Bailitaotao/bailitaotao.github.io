@@ -1,13 +1,26 @@
-<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect width="64" height="64" fill="white"/>
-<path d="M3 48C3 55 13 55 13 48C13 41 13 12 13 12C13 6 16 4 21 4" stroke="black" stroke-width="2"/>
-<path d="M13 13C15 13 20 13 21 13C22 13 23 14 23 15C23 16 23 17 23 18C23 19 22 20 21 20C20.2 20 15.3333 20 13 20" stroke="black" stroke-width="2"/>
-<path d="M13 26C15 26 20 26 21 26C22 26 23 27 23 28C23 29 23 30 23 31C23 32 22 33 21 33C20.2 33 15.3333 33 13 33" stroke="black" stroke-width="2"/>
-<path d="M13 39C15 39 20 39 21 39C22 39 23 40 23 41C23 42 23 43 23 44C23 45 22 46 21 46C20.2 46 15.3333 46 13 46" stroke="black" stroke-width="2"/>
-<path d="M41 3V12" stroke="black" stroke-width="2"/>
-<path d="M21 55C23.3333 55.1667 28 54 28 48C28 42 28 27.1667 28 20C28 17 30 12 41 12C52 12 54 17 54 20C54 20 54 31 54 40C54 49 48 49 48 55C48 61 55.5 62 59 60" stroke="black" stroke-width="2"/>
-<path d="M41 17V47" stroke="black" stroke-width="2"/>
-<path d="M34 29V21C34 18 38 17 41 17C44 17 48 18 48 21C48 23.4 48 27.3333 48 29" stroke="black" stroke-width="2"/>
-<path d="M34 32H48" stroke="black" stroke-width="2"/>
-<path d="M34 35C34 35 34 43 34 45C34 47 37 47 41 47C45 47 48 47 48 45V35" stroke="black" stroke-width="2"/>
+<svg width="116" height="125" viewBox="0 0 116 125" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_d_3_17)">
+<path d="M4 103C9 103 18 103 18 91C18 79 18 19 18 19C18 7 24 3 34 3" stroke="#DF465A" stroke-width="6"/>
+<path d="M18 21C22 21 32 21 34 21C36 21 38 23 38 25C38 27 38 29 38 31C38 33 36 35 34 35C32.4 35 22.6667 35 18 35" stroke="#DF465A" stroke-width="6"/>
+<path d="M18 47C22 47 32 47 34 47C36 47 38 49 38 51C38 53 38 55 38 57C38 59 36 61 34 61C32.4 61 22.6667 61 18 61" stroke="#DF465A" stroke-width="6"/>
+<path d="M18 73C22 73 32 73 34 73C36 73 38 75 38 77C38 79 38 81 38 83C38 85 36 87 34 87C32.4 87 22.6667 87 18 87" stroke="#DF465A" stroke-width="6"/>
+<path d="M74 1V19" stroke="#DF465A" stroke-width="6"/>
+<path d="M34 105C40 105 48 103 48 91C48 79 48 49.3333 48 35C48 29 52 19 74 19C96 19 100 29 100 35C100 35 100 57 100 75C100 93 88 93 88 105C88 117 100 121 110 115" stroke="#DF465A" stroke-width="6"/>
+<path d="M74 29V89" stroke="#DF465A" stroke-width="6"/>
+<path d="M60 53V37C60 31 68 30 74 30C80 30 88 31 88 37C88 41.8 88 49.6667 88 53" stroke="#DF465A" stroke-width="6"/>
+<path d="M60 59H88" stroke="#DF465A" stroke-width="6"/>
+<path d="M60 65C60 65 60 81 60 85C60 89 66 89 74 89C82 89 88 89 88 85V65" stroke="#DF465A" stroke-width="6"/>
+</g>
+<defs>
+<filter id="filter0_d_3_17" x="0" y="0" width="115.543" height="128.758" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="4"/>
+<feGaussianBlur stdDeviation="2"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_3_17"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_3_17" result="shape"/>
+</filter>
+</defs>
 </svg>
