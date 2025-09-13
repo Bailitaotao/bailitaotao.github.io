@@ -17,14 +17,14 @@
     <meta property="article:tag" content="AI">
     <meta property="article:tag" content="Narrative">
     <meta property="article:tag" content="Puzzle">
+    <meta property="og:image" content="http://localhost:1313/logo.png">
 
-  <meta name="twitter:card" content="summary">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="http://localhost:1313/logo.png">
   <meta name="twitter:title" content="Delete Me Not">
   <meta name="twitter:description" content="The design and research of a choice-driven, first-person narrative puzzle game exploring AI and humanity.">
-<meta name="application-name" content="My cool site">
-<meta name="apple-mobile-web-app-title" content="My cool site"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
-        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="http://localhost:1313/game-design/delet-me-not/delete-me-not/" /><link rel="prev" href="http://localhost:1313/game-design/verdant-viel/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="/lib/fontawesome-free/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<meta name="application-name" content="百里陶陶">
+<meta name="apple-mobile-web-app-title" content="百里陶陶"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="icon" href="/images/logo-tao-no-frame.svg"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="http://localhost:1313/game-design/delet-me-not/delete-me-not/" /><link rel="prev" href="http://localhost:1313/game-design/verdant-viel/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="/lib/fontawesome-free/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
         <noscript><link rel="stylesheet" href="/lib/fontawesome-free/css/all.min.css"></noscript><link rel="preload" href="/lib/animate/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
         <noscript><link rel="stylesheet" href="/lib/animate/animate.min.css"></noscript><script type="application/ld+json">
     {
@@ -49,10 +49,21 @@
         <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
     <div class="header-wrapper">
         <div class="header-title">
-            <a href="/" title="陶昊洋的个人网站">百里陶陶</a>
+            <a href="/" title="陶昊洋的个人网站"></a>
         </div>
         <div class="menu">
-            <div class="menu-inner"><a class="menu-item" href="/posts/" title="一些小作文"> 文章 </a><a class="menu-item" href="/game-design/" title="第九艺术"> 游戏设计 </a><a class="menu-item" href="/photography/" title="孤独的时光"> 摄影 </a><a class="menu-item" href="/notes/" title="没用的知识"> 笔记 </a><span class="menu-item delimiter"></span><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+            <div class="menu-inner"><a class="menu-item" href="/posts/"> 文章 </a><a class="menu-item" href="/game-design/"> 游戏设计 </a><a class="menu-item" href="/photography/"> 摄影 </a><a class="menu-item" href="/notes/"> 笔记 </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
+                        <input type="text" placeholder="Search titles or contents..." id="search-input-desktop">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="Search">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="Clear">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-desktop">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </span><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
                     <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
                 </a></div>
         </div>
@@ -61,26 +72,47 @@
     <div class="header-container">
         <div class="header-wrapper">
             <div class="header-title">
-                <a href="/" title="陶昊洋的个人网站">百里陶陶</a>
+                <a href="/" title="陶昊洋的个人网站"></a>
             </div>
             <div class="menu-toggle" id="menu-toggle-mobile">
                 <span></span><span></span><span></span>
             </div>
         </div>
-        <div class="menu" id="menu-mobile"><a class="menu-item" href="/posts/" title="一些小作文">文章一些小作文</a><a class="menu-item" href="/game-design/" title="第九艺术">游戏设计第九艺术</a><a class="menu-item" href="/photography/" title="孤独的时光">摄影孤独的时光</a><a class="menu-item" href="/notes/" title="没用的知识">笔记没用的知识</a><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+        <div class="menu" id="menu-mobile"><div class="search-wrapper">
+                    <div class="search mobile" id="search-mobile">
+                        <input type="text" placeholder="Search titles or contents..." id="search-input-mobile">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="Search">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="Clear">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-mobile">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </div>
+                    <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
+                        Cancel
+                    </a>
+                </div><a class="menu-item" href="/posts/">文章</a><a class="menu-item" href="/game-design/">游戏设计</a><a class="menu-item" href="/photography/">摄影</a><a class="menu-item" href="/notes/">笔记</a><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
                 <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>Switch Theme</a></div>
     </div>
-</header><main class="main">
+</header><div class="search-dropdown desktop">
+        <div id="search-dropdown-desktop"></div>
+    </div>
+    <div class="search-dropdown mobile">
+        <div id="search-dropdown-mobile"></div>
+    </div><main class="main">
                 <div class="container"><div class="page single special"><div class="single-card"><h1 class="single-title animate__animated animate__pulse animate__faster">Delete Me Not</h1><div class="content" id="content"><h2 id="inspiration">INSPIRATION</h2>
 <p>My inspiration comes from the explosive development of AI in recent years. AI-generated advertisements and videos have already permeated our lives, and my encounter with the AI detection system while completing my thesis allowed me to experience a cold, machine logic—it only recognizes data patterns but fails to understand human intentions. I can&rsquo;t help but worry about how, in the near future, a society that exists for absolute efficiency will handle &ldquo;inefficient&rdquo; human individuals. Therefore, in this project, my team and I hope to develop a game to explore the dialectical relationship between AI and human society.</p>
 <hr>
 <h2 id="research">RESEARCH</h2>
 <h3 id="i-the-reshaping-of-jobs">I. The Reshaping of Jobs</h3>
 <p>The World Economic Forum&rsquo;s (WEF) &ldquo;Future of Jobs Report 2023&rdquo; predicts that by 2027, 83 million jobs globally may be displaced by AI and automation, while 69 million new jobs will be created. This results in a net loss of 14 million jobs, or 2% of current employment.</p>
-<p>!Chart showing 83 million jobs lost and 69 million created <a href="/images/project4/jobs_chart.png" rel=""><!-- raw HTML omitted -->1<!-- raw HTML omitted --></a></p>
+<p>!Chart showing 83 million jobs lost and 69 million created <a href="/images/project4/jobs_chart.png" rel=""><sup>1</sup></a></p>
 <h3 id="ii-the-exponential-leap-of-ai">II. The Exponential Leap of AI</h3>
 <p>Prediction from market research company Statista: The size of the global AI market is expected to grow from approximately $200 billion in 2023 to over $1.8 trillion by 2030.</p>
-<p>!Graph showing exponential growth of the AI market <a href="/images/project4/market_forecast.png" rel=""><!-- raw HTML omitted -->2<!-- raw HTML omitted --></a></p>
+<p>!Graph showing exponential growth of the AI market <a href="/images/project4/market_forecast.png" rel=""><sup>2</sup></a></p>
 <h3 id="iii-generalization-of-ai-tools">III. Generalization of AI Tools</h3>
 <p>According to the report by Tyton Partners, &ldquo;Time for Class 2024: The State of AI in Higher Education,&rdquo; this report conducted an in-depth investigation of over 4,000 American college students, with the results being shocking:</p>
 <ul>
@@ -88,7 +120,7 @@
 <li><strong>57%</strong> of the students are &ldquo;regular users,&rdquo; meaning they use AI in their academic work weekly or more frequently.</li>
 <li>It is estimated that more than <strong>two-thirds</strong> of the students believe that AI is &ldquo;important&rdquo; or &ldquo;very important&rdquo; for their university education. AI has evolved from a &ldquo;tool&rdquo; to a &ldquo;dependency.&rdquo;</li>
 </ul>
-<p>!Infographic showing AI tool usage among students <a href="/images/project4/ai_tool_usage.png" rel=""><!-- raw HTML omitted -->3<!-- raw HTML omitted --></a></p>
+<p>!Infographic showing AI tool usage among students <a href="/images/project4/ai_tool_usage.png" rel=""><sup>3</sup></a></p>
 <h3 id="iv-the-cage-from-algorithms">IV. The Cage from Algorithms</h3>
 <ul>
 <li><strong>TikTok</strong>: Its recommendation algorithm is renowned for its astonishing learning speed and accuracy, making it one of the most powerful tools for creating &ldquo;information bubbles.&rdquo; It not only analyzes your likes and follows but also tracks the duration of each video you watch with millisecond-level precision.</li>
@@ -143,14 +175,14 @@
     </tbody>
   </table>
 </div>
-<p>!Photo of Tong Shi <a href="/images/project4/tong_shi.jpg" rel=""><!-- raw HTML omitted -->4<!-- raw HTML omitted --></a>
-!Photo of Haoyang Tao <a href="/images/project4/haoyang_tao.jpg" rel=""><!-- raw HTML omitted -->5<!-- raw HTML omitted --></a></p>
+<p>!Photo of Tong Shi <a href="/images/project4/tong_shi.jpg" rel=""><sup>4</sup></a>
+!Photo of Haoyang Tao <a href="/images/project4/haoyang_tao.jpg" rel=""><sup>5</sup></a></p>
 <hr>
 <h2 id="game-flow">Game Flow</h2>
-<p>!Game Flow Diagram <a href="/images/project4/game_flow.png" rel=""><!-- raw HTML omitted -->6<!-- raw HTML omitted --></a></p>
+<p>!Game Flow Diagram <a href="/images/project4/game_flow.png" rel=""><sup>6</sup></a></p>
 <hr>
 <h2 id="storyboard">Storyboard</h2>
-<p>!Game Storyboard Image <a href="/images/project4/storyboard.jpg" rel=""><!-- raw HTML omitted -->7<!-- raw HTML omitted --></a></p>
+<p>!Game Storyboard Image <a href="/images/project4/storyboard.jpg" rel=""><sup>7</sup></a></p>
 </div><div class="post-footer" id="post-footer">
     <div class="post-info">
         <div class="post-info-line">
@@ -159,9 +191,11 @@
                                     <i class="fas fa-hashtag fa-fw" aria-hidden="true"></i>ff76111</a></span>
             </div></div>
         <div class="post-info-line">
-            <div class="post-info-md"></div>
+            <div class="post-info-md"><span>
+                            <a class="link-to-markdown" href="/game-design/delet-me-not/delete-me-not/index.md" target="_blank">Read Markdown</a>
+                        </span></div>
             <div class="post-info-share">
-                <span><a href="javascript:void(0);" title="Share on X" data-sharer="x" data-url="http://localhost:1313/game-design/delet-me-not/delete-me-not/" data-title="Delete Me Not" data-hashtags="Game Design,AI,Narrative,Puzzle"><i class="fab fa-x-twitter fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Threads" data-sharer="threads" data-url="http://localhost:1313/game-design/delet-me-not/delete-me-not/" data-title="Delete Me Not"><i class="fab fa-threads fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Facebook" data-sharer="facebook" data-url="http://localhost:1313/game-design/delet-me-not/delete-me-not/" data-hashtag="Game Design"><i class="fab fa-facebook-square fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Hacker News" data-sharer="hackernews" data-url="http://localhost:1313/game-design/delet-me-not/delete-me-not/" data-title="Delete Me Not"><i class="fab fa-hacker-news fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Line" data-sharer="line" data-url="http://localhost:1313/game-design/delet-me-not/delete-me-not/" data-title="Delete Me Not"><i data-svg-src="/lib/simple-icons/icons/line.min.svg" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on 微博" data-sharer="weibo" data-url="http://localhost:1313/game-design/delet-me-not/delete-me-not/" data-title="Delete Me Not"><i class="fab fa-weibo fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Diaspora" data-sharer="diaspora" data-url="http://localhost:1313/game-design/delet-me-not/delete-me-not/" data-title="Delete Me Not" data-description="The design and research of a choice-driven, first-person narrative puzzle game exploring AI and humanity."><i class="fab fa-diaspora fa-fw" aria-hidden="true"></i></a><a href="https://t.me/share/url?url=http%3a%2f%2flocalhost%3a1313%2fgame-design%2fdelet-me-not%2fdelete-me-not%2f&amp;text=Delete%20Me%20Not" target="_blank" title="Share on Telegram"><i class="fab fa-telegram fa-fw" aria-hidden="true"></i></a></span>
+                <span><a href="javascript:void(0);" title="Share on X" data-sharer="x" data-url="http://localhost:1313/game-design/delet-me-not/delete-me-not/" data-title="Delete Me Not" data-via="xxxx" data-hashtags="Game Design,AI,Narrative,Puzzle"><i class="fab fa-x-twitter fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Threads" data-sharer="threads" data-url="http://localhost:1313/game-design/delet-me-not/delete-me-not/" data-title="Delete Me Not"><i class="fab fa-threads fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Facebook" data-sharer="facebook" data-url="http://localhost:1313/game-design/delet-me-not/delete-me-not/" data-hashtag="Game Design"><i class="fab fa-facebook-square fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Hacker News" data-sharer="hackernews" data-url="http://localhost:1313/game-design/delet-me-not/delete-me-not/" data-title="Delete Me Not"><i class="fab fa-hacker-news fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Line" data-sharer="line" data-url="http://localhost:1313/game-design/delet-me-not/delete-me-not/" data-title="Delete Me Not"><i data-svg-src="/lib/simple-icons/icons/line.min.svg" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on 微博" data-sharer="weibo" data-url="http://localhost:1313/game-design/delet-me-not/delete-me-not/" data-title="Delete Me Not"><i class="fab fa-weibo fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Diaspora" data-sharer="diaspora" data-url="http://localhost:1313/game-design/delet-me-not/delete-me-not/" data-title="Delete Me Not" data-description="The design and research of a choice-driven, first-person narrative puzzle game exploring AI and humanity."><i class="fab fa-diaspora fa-fw" aria-hidden="true"></i></a><a href="https://t.me/share/url?url=http%3a%2f%2flocalhost%3a1313%2fgame-design%2fdelet-me-not%2fdelete-me-not%2f&amp;text=Delete%20Me%20Not" target="_blank" title="Share on Telegram"><i class="fab fa-telegram fa-fw" aria-hidden="true"></i></a></span>
             </div>
         </div>
     </div>
@@ -177,7 +211,7 @@
 </div>
 </div></div></div>
             </main><footer class="footer">
-        <div class="footer-container"><div class="footer-line">≡^⦁⩊⦁^≡</div><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw" aria-hidden="true"></i><span itemprop="copyrightYear">2025</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="https://bailitaotao.com" target="_blank">陶昊洋</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
+        <div class="footer-container"><div class="footer-line">^⦁⩊⦁^</div><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw" aria-hidden="true"></i><span itemprop="copyrightYear">2025</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="http://bailitaotao.com" target="_blank">陶昊洋</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
         </div>
     </footer></div>
 
@@ -189,5 +223,5 @@
         <div id="fixed-buttons-hidden"><a href="#" id="view-comments" class="fixed-button" title="View Comments">
                 <i class="fas fa-comment fa-fw" aria-hidden="true"></i>
             </a>
-        </div><script src="/lib/lazysizes/lazysizes.min.js"></script><script src="/lib/clipboard/clipboard.min.js"></script><script src="/lib/sharer/sharer.min.js"></script><script>window.config={"comment":{}};</script><script src="/js/theme.min.js"></script></body>
+        </div><link rel="stylesheet" href="/lib/katex/katex.min.css"><link rel="stylesheet" href="/lib/cookieconsent/cookieconsent.min.css"><script src="/lib/autocomplete/autocomplete.min.js"></script><script src="/lib/lunr/lunr.min.js"></script><script src="/lib/lazysizes/lazysizes.min.js"></script><script src="/lib/clipboard/clipboard.min.js"></script><script src="/lib/sharer/sharer.min.js"></script><script src="/lib/katex/katex.min.js"></script><script src="/lib/katex/contrib/auto-render.min.js"></script><script src="/lib/katex/contrib/copy-tex.min.js"></script><script src="/lib/katex/contrib/mhchem.min.js"></script><script src="/lib/cookieconsent/cookieconsent.min.js"></script><script>window.config={"comment":{},"cookieconsent":{"content":{"dismiss":"Got it!","link":"Learn more","message":"This website uses Cookies to improve your experience."},"enable":true,"palette":{"button":{"background":"#f0f0f0"},"popup":{"background":"#1aa3ff"}},"theme":"edgeless"},"math":{"delimiters":[{"display":true,"left":"$$","right":"$$"},{"display":true,"left":"\\[","right":"\\]"},{"display":true,"left":"\\begin{equation}","right":"\\end{equation}"},{"display":true,"left":"\\begin{equation*}","right":"\\end{equation*}"},{"display":true,"left":"\\begin{align}","right":"\\end{align}"},{"display":true,"left":"\\begin{align*}","right":"\\end{align*}"},{"display":true,"left":"\\begin{alignat}","right":"\\end{alignat}"},{"display":true,"left":"\\begin{alignat*}","right":"\\end{alignat*}"},{"display":true,"left":"\\begin{gather}","right":"\\end{gather}"},{"display":true,"left":"\\begin{CD}","right":"\\end{CD}"},{"display":false,"left":"$","right":"$"},{"display":false,"left":"\\(","right":"\\)"}],"strict":false},"search":{"highlightTag":"em","lunrIndexURL":"/index.json","maxResultLength":10,"noResultsFound":"No results found","snippetLength":50,"type":"lunr"}};</script><script src="/js/theme.min.js"></script></body>
 </html>
